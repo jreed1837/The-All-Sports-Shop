@@ -1,0 +1,44 @@
+/* This is the body section where the fonts are chosen*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* This is the headeer section where the colors are chosen and how the text is aligned (In this case the background is a light orange*/
+header {
+    background-color: #d58e0a16;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* This was included because the footer was blocking the entire products page to be shown, this gives the footer some room on the bottom of the page*/
+.products-section {
+    margin-bottom: 100px;
+}
+
+/* This is the footer section where it customizes the font and alignment of the text for the footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
